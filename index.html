@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricochet Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="board" id="board"></div>
+        <div class="controls">
+            <button id="pause">Pause</button>
+            <button id="resume">Resume</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="timer">
+            Player 1: <span id="timer1">300</span>s | Player 2: <span id="timer2">300</span>s
+            <div class="undoredo">
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+            </div>
+           
+        </div>
+    </div>
+    <div id="move-rotate-popup" class="popup">
+        <button id="move-button">Move</button>
+        <button id="rotate-button">Rotate</button>
+    </div>
+    
+    <div id="rotate-popup" class="popup">
+        <button id="rotate-right-button">Right</button>
+        <button id="rotate-left-button">Left</button>
+    </div>
+   
+   
+   
+
+    <div id="history">
+        <h2 id="move">Move History</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+
+
+   
+
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(lap\ back.jpg);
+    background-size: cover;
+   
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        backdrop-filter: blur(25px);
+      
+      
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    padding-top: 7%;
+    font-size:50px;
+}
+.one{
+    color: white;
+   
+
+}
+.two{
+    color: white;
+    margin-left: 50px;
+}
+.buttons{
+    margin-left: 45%;
+}
+#game{
+   text-decoration: none;
+   color: rgb(255, 240, 240);
+    
+}
+#game:hover{
+    color: rgb(0, 0, 0);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 10;
+    display: none;
+    
+
+}
+.popupbox{
+    z-index: 100;
+    position: absolute;
+   background-color: blueviolet;
+   font-size:18px ;
+    height: 270px;
+    width: 70%;
+    left: 20%;
+    border-radius: 20px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    display: none;
+    
+}
+#btn{
+    height: 40px ;
+    width: 70px;
+    border:none;
+    margin-left: 40%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#newgame{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+#newgame:hover{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#rule{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+#rule:hover{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+

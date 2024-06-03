@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1 class="one">Ricochet</h1>
+        <h1 class="two">Rumble</h1>
+    </div>
+    <div class="buttons">
+        <button id="newgame"><a href="index.html" id="game">New Game</a>  </button>
+        <button id="rule" onclick="popUpBox()">Rule Book</button>
+    </div>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <p>
+            <ul>
+                <li>This game is played by 2 player, player 1 is mentioned in red and the player 2 is mentioned in blue</li>
+                <li>Each player consists of 5 players namely: titan , tank , ricochet , semiricochet  and cannon</li>
+                <li>The logic of the game is so simple , whenevr the cannon is clicked it shoots a bullet we have to saveguard the titan from the bullet</li>
+                <li>The ricochet and the semirecochet are there to change the bullet direction, when the bullet hits the non-reflecting side of the semiricochet , the semiricochet will get destroyed</li>
+                <li>the tank will protect the titan from the bullet, when the bullet hits the tank the bullet will get destroyed</li>
+                <li>you can resume , pause and reset the game by the buttons present below the game board</li>
+                <li>you can see the game history  </li>
+                <li>each player is given 300s(5mins) , after the 5mins if a player is playing the game , then the opponent wins</li>
+            </ul>
+        </p>
+        <button id="btn" onclick="normal()">Back
+        </button>
+    </div>
+    
+    <script src="landing.js"></script>
+</body>
+</html>
